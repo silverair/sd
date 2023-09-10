@@ -1,0 +1,11 @@
+wget "https://civitai.com/api/download/models/52870?type=Model&format=SafeTensor" -o /workspace/stable-diffusion-webui/models/Lora/pixel_f2.safetensors
+wget "https://civitai.com/api/download/models/17233?type=Model&format=SafeTensor&size=full&fp=fp16" -o /workspace/stable-diffusion-webui/models/Stable-diffusion/AOM3A1B.safetensors
+
+
+
+
+
+
+(masterpiece, top quality, best quality), pixel,pixel art,1girl,full body, <lora:pixel_f2:0.5>
+Negative prompt: Easynegative, ng_deepnegative_v1_75t, badhandv4 (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, normal quality, ((monochrome)), ((grayscale)),skin spots, acnes, skin blemishes, age spot, glans, ((child)), ((loli)),watermark, username, blurry, lowres graffiti, (low quality lowres simple background:1.1), (holding:1.5), bag,
+Steps: 20, Size: 512x960, Seed: 2540083745, Version: v1.5.1, Sampler: DPM++ SDE Karras, CFG scale: 7, Clip skip: 2, "pixel_f2: 9d49ca20880d", Model hash: 354b8c571d, "EasyNegative: 339cc9210f70", Hires upscale: 2, Hires upscaler: SwinIR_4x, Denoising strength: 0.4
